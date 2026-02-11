@@ -1,0 +1,4 @@
+class Absteaction
+{
+void show
+}
