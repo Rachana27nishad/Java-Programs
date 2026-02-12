@@ -1,6 +1,6 @@
 class  OverriTypearg
 {
-	void show()
+	void show(String a)
 	{
 		System.out.println("5");
 	}
@@ -8,14 +8,18 @@ class  OverriTypearg
 
 class B extends  OverriTypearg
 {
-	void show()
+	void show(String a)
 	{
 		System.out.println("4");
 	}
 	public static void main(String[] args)
 	{
-		B ob =  new  OverriTypearg();
-		ob.show();
+		// OverriTypearg ob = new  OverriTypearg();
+		 //ob.show();
+		 
+		 B ob1 = new B();
+		 ob1.show();
+		 
 		
 	}
 	
